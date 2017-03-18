@@ -9,3 +9,8 @@ Copyright (C) 2015 Oleg Shparber
 This software is available under the terms of the GNU Lesser General Public License version 3 (LGPLv3).
 
 This project is a fork of [QtCreator Tabbed Editor Plugin](https://sourceforge.net/projects/tabbededitor/) by SNA Soft.
+
+## Building
+
+ export QTC_SOURCE="/path/to/qtcreator/sources" && export QTC_BUILD="path/to/qtcreator" && qmake LIBS+="-L/path/to/qtcreator/libraries -L/path/to/qtcreator/plugins"
+ make
